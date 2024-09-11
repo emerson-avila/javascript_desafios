@@ -4,10 +4,73 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>To-do List</title>
+   
+   <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-   
-   
+   <div class="container">
+      
+      <header>
+      
+         <h1>To do List</h1>
+      
+      </header>
+      
+      <section>
+      
+         <p>
+      
+            Adicione suas tarefas diárias:
+            <input type="text" id="tarefaDiaria">
+            <input type="button" value="Clique para Adicionar" onclick="adicionar(s)">
+            
+         </p>
+         
+         <p>
+            
+             Adicione duas tarefas semanais:
+            <input type="text" id="tarefaSemanal">
+            <input type="button" value="Clique para Adicionar" onclick="adicionar(s)">
+            
+         </p>
+         
+         <p>
+            
+            Adicione suas tarefas mensais:
+             <input type="text" id="tarefasMensal">
+            <input type="button" value="Clique para Adicionar" onclick="adicionar(s)">
+            
+         </p>
+      
+      </section>
+      
+      <div class="tarefas">
+         
+         <div id="tarefasDiarias">
+            
+            
+            
+         </div>
+         
+         <div id="tarefasSemanais">
+            
+            
+            
+         </div>
+         
+         <div id="tarefasMensais">
+            
+            
+            
+         </div>
+         
+      </div>
+      
+   </div>
+   <script src="script.js">
+      
+   </script>
    
 </body>
 </html>
